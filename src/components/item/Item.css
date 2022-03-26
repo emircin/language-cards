@@ -1,0 +1,31 @@
+.card{
+    height: 90px;
+    background-color: peachpuff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 2px #2b3456;
+}
+.card-logo{
+    width: 50%;
+    height: 60px;
+    transition: transform 0.3s ease-out;
+}
+.card:hover .card-logo{
+    transform: scale(1.15)
+}
+.card-title{
+    text-align: center;
+    font-size: 1rem;
+}
+.list{
+    background-color: peachpuff;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 500;
+    list-style-position: outside;
+    padding-left:15px;
+}
